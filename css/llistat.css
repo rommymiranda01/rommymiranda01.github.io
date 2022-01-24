@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat";
 
 .titol1 {
+    font-family: 'Open Sans', sans-serif;
     color: gray;
     border-top: 5px rgb(255, 255, 255) solid;
     border-bottom: 5px rgb(255, 255, 255) solid;
@@ -16,8 +17,8 @@
 }
 
 .logo{
-    height: 70px;
-    width: 70px;
+    height: 5%;
+    width: 5%;
 }
 
 body {
@@ -67,4 +68,27 @@ body {
 
 img{
     width:300px;height:300px;
+}
+
+.link{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+
+    background: #7b83ff;
+
+    background-image: -webkit-linear-gradient(top, #0010f7, #2079b0);
+    background-image: -moz-linear-gradient(top, #0010f7, #2079b0);
+    background-image: -ms-linear-gradient(top, #0010f7, #2079b0);
+    background-image: -o-linear-gradient(top, #0010f7, #2079b0);
+    background-image: linear-gradient(to bottom, #0010f7, #2079b0);
+
+    color: #fafafa;
+    text-decoration: none;
 }

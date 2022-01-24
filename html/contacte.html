@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacte</title>
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/contacte.css">
+</head>
+<body>
+
+<a href="../home.html" class="link">Torna</a>
+
+<div class="contact_form">
+
+    <div class="formulario">
+        <h1>Formulari de contacte</h1>
+        <h3>Escriu-nos i ens posarem en contacte amb tu</h3>
+
+
+        <form action="#" method="post">
+
+            <p>
+                <label for="nom">Nom
+                    <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introduir_nom" id="nom" required="obligatorio" placeholder="Escriu el teu nom">
+            </p>
+
+            <p>
+                <label for="email">Email
+                    <span class="obligatorio">*</span>
+                </label>
+                <input type="email" name="introduir_email" id="email" required="obligatorio" placeholder="Escriu el teu correu">
+            </p>
+
+            <p>
+                <label for="assumpte">Assumpte
+                    <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introduir_assumpte" id="assumpte" required="obligatorio" placeholder="Escriu un assumpte">
+            </p>
+
+            <p>
+                <label for="missatge">Missatge
+                    <span class="obligatorio">*</span>
+                </label>
+                <textarea name="introduir_missatge" id="missatge" required="obligatorio" placeholder="Deixa aquí el teu comentari..."></textarea>
+            </p>
+
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+            <p class="avis">
+                <span class="obligatorio"> * </span>Els camps són obligatoris.
+            </p>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

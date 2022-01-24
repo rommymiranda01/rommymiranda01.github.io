@@ -6,9 +6,8 @@
     border-top: 5px rgb(255, 255, 255) solid;
     border-bottom: 5px rgb(255, 255, 255) solid;
     border-radius: 10px;
-    margin-top: auto;
     height: auto;
-    width: 660px;
+    width: 80%;
     margin: auto;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -61,6 +60,7 @@ body {
 }
 
 .flip-card-back {
+    opacity: 1;
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
@@ -108,4 +108,21 @@ img{
     padding: 20px;
     font-size: 20px;
     text-align: center;
+}
+
+.contingutlink{
+    position: fixed;
+}
+
+/* footer */
+footer{
+    display: flex;
+    background: linear-gradient(to right, #f70000, #FBE0DB, #1100ff, #F6FBDB);
+//width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    font-size: 15px;
 }
